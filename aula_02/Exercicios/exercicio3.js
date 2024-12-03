@@ -9,6 +9,8 @@ let descontos = leia.questionFloat("Digite o total de descontos: ");
 
 let salarioLiquido = salarioBruto + adicionalNoturno + (horasExtras * 5) - descontos;
 
-let salarioFinal = new Intl.NumberFormat('pt-br', { style: 'currency', currency: 'BRL' }).format(salarioLiquido);
+let salarioFinal = new Intl.NumberFormat(
+    'pt-br', { style: 'currency', currency: 'BRL'
+    }).format(salarioLiquido);
 
 console.log(descritivo + salarioFinal);

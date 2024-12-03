@@ -8,4 +8,6 @@ let abono = leia.questionFloat("Informe o valor do abono: ");
 let novoSalario = salarioBruto + abono;
 
 
-console.log(`\nO salário total do funcionário ${funcionario} é de` , new Intl.NumberFormat('pt-br', { style: 'currency', currency: 'BRL' }).format(novoSalario));
+console.log(`\nO salário total do funcionário ${funcionario} é de` , 
+    new Intl.NumberFormat('pt-br', { style: 'currency', currency: 'BRL' })
+    .format(novoSalario));
