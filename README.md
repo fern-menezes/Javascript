@@ -8,5 +8,7 @@ Este repositório contém diversas atividades e exercícios relacionados ao apre
   - Fundamentos do JavaScript
   - Sintaxe Básica
   - Variáveis e Tipos de Dados
+- **🔀 Estrutura Consicional
+  - if, else
 
 
