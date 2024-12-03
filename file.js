@@ -1,0 +1,1 @@
+console.log("Olá Mundo! Você vai ser explodido CATCHAAAAAAAUUUUUUU");
