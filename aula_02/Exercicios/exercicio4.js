@@ -11,4 +11,4 @@ let calculo2 = (n3 * n4);
 
 let resultado = (calculo - calculo2).toFixed(1);
 
-console.log(resultado);
+console.log("A Diferença é: ", resultado);
