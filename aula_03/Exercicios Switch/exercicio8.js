@@ -6,9 +6,9 @@ console.log("2- SAQUE");
 console.log("3- DEPÓSITO");
 
 
-let operacao = leia.questionInt("\nSelecione a operacao: ")
+let operacao = leia.questionFloat("\nSelecione a operacao: ")
 
-let saldo = 1000.00.toFixed(2);
+let saldo = 1000.00;
 let saque;
 let deposito;
 let resultado;
@@ -28,8 +28,9 @@ switch(operacao){
         }
         break
     case 3:
-        deposito = leia.questionInt("\nInforme o valor: ");
-        console.log(`Operação - Depósito \n Novo Saldo: R$${saldo + deposito}`);
+        deposito = leia.questionFloat("\nInforme o valor: ");
+        saldo = saldo + deposito
+        console.log(`Operação - Depósito \n Novo Saldo: R$${saldo}`);
         break
     default:
         console.log("Operação Inválida!")
