@@ -3,6 +3,7 @@ const leia = require('readline-sync');
 
 let nomeDoador = leia.question("Digite o Nome do doador: ");
 let idade = leia.questionInt("Digite a Idade do doador: ");
+// ou doador keyInYNStrict("Primeira doacao de sangue? (Digite true ou false):  ") entende só yes e no ou true or false
 let doador = leia.question("Primeira doacao de sangue? (Digite true ou false):  ").toLowerCase() === 'true';
 
 let resultado;
